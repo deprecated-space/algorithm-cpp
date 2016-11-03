@@ -5,9 +5,9 @@ int Min_pos(char *s,int len)
 	{
 		int t=s[(i+k)%len]-s[(j+k)%len];
 		if(!t) k++;
-		else 
+		else
 		{
-			if(t>0) i+=k+1;     //×î´ó±íÊ¾¸ÄÕâÀïµÄ·ûºÅ
+			if(t>0) i+=k+1;     //æœ€å¤§è¡¨ç¤ºæ”¹è¿™é‡Œçš„ç¬¦å·
 			else j+=k+1;
 			if(i==j) j++;
 			k=0;
