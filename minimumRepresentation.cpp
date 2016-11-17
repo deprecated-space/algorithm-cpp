@@ -15,7 +15,7 @@ int Min_pos(char *s, int len) {
       if (i == j)
         j++;
 
-      k=0;
+      k = 0;
     }
   }
 
